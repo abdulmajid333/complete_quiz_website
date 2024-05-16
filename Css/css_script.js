@@ -2,7 +2,7 @@
 // step 1 import module 
 
 
-import { css_question_data as question_data } from '../modules/cssquestions.js';
+import { css_question_data as question_data } from "../modules/cssquestions.js";
 
 
 
@@ -142,9 +142,9 @@ submitBtn.addEventListener("click", function(){
     }
     else{
         quiz.innerHTML = `
-        <div class="result-div">
-            <h1>Your score : ${score}/${question_data.length} correct answer</h1>
-            <p>Congratulation on complete the quiz !!</p>
+        <div class="result-div flex justify-center content-center flex-col text-center gap-2 font-bold">
+            <h1 class="text-3xl">Your score : ${score}/${question_data.length} correct answer</h1>
+            <p class="text-xl">Congratulation on complete the quiz !!</p>
             <button class="btn-play-again" onclick="location.reload()">Play Again !!</button>
         </div>
         `;
