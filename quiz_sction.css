@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quiz-section{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    
+}
+
+.quiz-img-csharp-wt-div{
+    position: relative;
+    width: 40vw;
+    height: 80vh;
+    background-image: url('images/quiz_section/thinking\ girl.jpg');
+    background-repeat: no-repeat;
+    background-size: 40vw 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.quiz-img-csharp-wot-div{
+    position: relative;
+    width: 40vw;
+    height: 80vh;
+    background-image: url('images/quiz_section/thinking\ man.jpeg');
+    background-repeat: no-repeat;
+    background-size: 40vw 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.quiz-img-html-wt-div{
+    position: relative;
+    width: 40vw;
+    height: 80vh;
+    background-image: url('images/quiz_section/1398323476man-thinking.jpg');
+    background-repeat: no-repeat;
+    background-size: 40vw 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.quiz-img-html-wot-div{
+    position: relative;
+    width: 40vw;
+    height: 80vh;
+    background-image: url('images/quiz_section/pentingnya-pengembangan-diri-scaled.jpeg');
+    background-repeat: no-repeat;
+    background-size: 40vw 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.quiz-img-css-wt-div{
+    position: relative;
+    width: 40vw;
+    height: 80vh;
+    background-image: url('images/quiz_section/20190801160523-GettyImages-507844038.jpeg');
+    background-repeat: no-repeat;
+    background-size: 40vw 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.quiz-img-css-wot-div{
+    position: relative;
+    width: 40vw;
+    height: 80vh;
+    background-image: url('images/quiz_section/GettyImages-979017404-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: 40vw 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.data-img-div{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.data-img-div > h1 {
+    background-color: white;
+    color: black;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-img-div{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 50px;
+    margin-bottom: 15px;
+}
+
+.btn-img-div > input[type="button"]{
+    background-color: yellow;
+    color: black;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid black;
+}
+
+.btn-img-div > input[type="button"]:hover{
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+
+.quiz-div{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question-div{
+    margin: 20px;
+}
+
+.question-div > h3{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.question-div > h1{
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.option-div{
+    margin-inline: 20px;
+}
+
+.option-div > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.option-div > ul > li{
+    background-color: #FFBF00;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.option-div > ul > li:hover{
+    background-color: green;
+    color: white;
+}
+
+.option-div > ul > li > input[type="radio"]{
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    /* visibility: hidden; */
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 30px;
+}
+
+.btn-div > input[type="button"]{
+    background-color: yellow;
+    color: black;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid black;
+}
+
+.btn-div > input[type="button"]:hover{
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+
